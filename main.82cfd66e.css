@@ -3885,7 +3885,9 @@ button.close {
 
 .grid-item {
   position: relative;
-  display: block; }
+  display: block;
+  cursor: pointer;  
+}
   .grid-item .project-description {
     opacity: 0;
     -webkit-transition: all 0.3s linear;
@@ -3899,7 +3901,8 @@ button.close {
     left: 0;
     right: 0;
     margin: 5%;
-    text-decoration: none; }
+    text-decoration: none;
+      }
     .grid-item .project-description .project-text-holder {
       display: table;
       text-align: center;
@@ -3914,9 +3917,12 @@ button.close {
         width: 100%;
         height: 100%;
         margin: 0;
-        padding: 0; }
+        padding: 0; 
+    }
   .grid-item:hover .project-description {
-    opacity: 100; }
+    opacity: 100;
+    cursor: pointer;
+ }
     .project-text-inner h3{
         color: #fff;
         margin-bottom: 0;
