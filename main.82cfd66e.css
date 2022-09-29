@@ -268,10 +268,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #FF6360;
+  color: #ae5577;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #ff1814;
+    color:  #ae5577;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -4007,6 +4007,7 @@ main {
   overflow: hidden; }
 
 .site-logo {
+  width: 80px;  
   margin-bottom: 6px; }
 
 .site-brand {
@@ -4034,7 +4035,7 @@ main {
   .nav > li > a.active {
     font-weight: 700; }
   .nav > li > a:hover {
-    color: #FF6360; }
+    color: #ae5577; }
 
 .nav-footer-social-buttons {
   margin-bottom: 0;
